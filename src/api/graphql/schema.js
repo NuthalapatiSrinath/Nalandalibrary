@@ -1,4 +1,3 @@
-// src/api/graphql/schema.js
 const { buildSchema } = require("graphql");
 
 module.exports = buildSchema(`
@@ -38,8 +37,9 @@ module.exports = buildSchema(`
   }
 
   type BookReport {
-      bookTitle: String!
-      count: Int!
+      _id: ID
+      title: String
+      count: Int
   }
 
   type RootQuery {
