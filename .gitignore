@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Firebase
+.firebase/
+
+# dotenv backup
+.env.backup
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Desktop.ini
+$RECYCLE.BIN/
